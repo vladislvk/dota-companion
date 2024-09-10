@@ -1,21 +1,25 @@
-//
-//  ContentView.swift
-//  dota-companion
-//
-//  Created by vladislav kim on 10.09.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    init() {
+            UITabBar.appearance().backgroundColor = UIColor.systemGray6
+    }
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView{
+            HomeScreen()
+            
+                .tabItem {
+                    Image(systemName: "house")
+                        
+                }
+            SecondScreen()
+                .tabItem {
+                    Image(systemName: "moon")
+                }
         }
-        .padding()
+        .accentColor(.red)
+        
+        
     }
 }
 
