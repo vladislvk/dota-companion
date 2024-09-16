@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E18EE29E2C98B0F000BAF315 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18EE29D2C98B0F000BAF315 /* ProfilePage.swift */; };
 		E1BC22F22C90A0F5003585C4 /* dota_companionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC22F12C90A0F5003585C4 /* dota_companionApp.swift */; };
 		E1BC22F42C90A0F5003585C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC22F32C90A0F5003585C4 /* ContentView.swift */; };
 		E1BC22F62C90A0F5003585C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BC22F52C90A0F5003585C4 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E18EE29D2C98B0F000BAF315 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		E1BC22EE2C90A0F5003585C4 /* dota-companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dota-companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BC22F12C90A0F5003585C4 /* dota_companionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dota_companionApp.swift; sourceTree = "<group>"; };
 		E1BC22F32C90A0F5003585C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				E1BC23002C90A27A003585C4 /* HomeScreen.swift */,
 				E1BC23022C90A36D003585C4 /* SecondScreen.swift */,
+				E18EE29D2C98B0F000BAF315 /* ProfilePage.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				E1BC22F42C90A0F5003585C4 /* ContentView.swift in Sources */,
 				E1BC23032C90A36D003585C4 /* SecondScreen.swift in Sources */,
+				E18EE29E2C98B0F000BAF315 /* ProfilePage.swift in Sources */,
 				E1BC22F22C90A0F5003585C4 /* dota_companionApp.swift in Sources */,
 				E1BC23012C90A27A003585C4 /* HomeScreen.swift in Sources */,
 			);

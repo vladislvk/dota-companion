@@ -3,7 +3,7 @@ import SwiftUI
 struct HomeScreen: View {
     var body: some View {
         ZStack(content: {
-            Color.secondary
+            Color.black
                 .ignoresSafeArea()
             VStack(content: {
                 HStack(content: {
@@ -15,10 +15,16 @@ struct HomeScreen: View {
                     Circle()
                         .frame(height: 60)
                         .padding(20)
+                        .foregroundColor(.white)
                 })
                 Spacer()
             })
-        })
+        }).overlay(
+            Rectangle()
+                .frame(height: 0.5)
+                .foregroundColor(.gray),
+            alignment: .bottom
+        )
     }
 }
 

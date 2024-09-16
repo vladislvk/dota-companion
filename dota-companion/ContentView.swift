@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     init() {
-            UITabBar.appearance().backgroundColor = UIColor.darkGray
+            UITabBar.appearance().backgroundColor = UIColor.black
     }
     var body: some View {
         TabView{
@@ -11,19 +11,20 @@ struct ContentView: View {
                 .tabItem {
                     VStack(content: {
                         Image(systemName: "house")
-                        Text("Home")
+                        Text("Feed")
                     })
                         
                 }
             SecondScreen()
                 .tabItem {
-                    Image(systemName: "moon")
-                    Text("i on know")
+                    Image(systemName: "figure.martial.arts")
+                    Text("Heroes")
                 }
-            SecondScreen()
+            
+            ProfilePage()
                 .tabItem {
-                    Image(systemName: "moon")
-                    Text("i on know")
+                    Image(systemName: "person.circle.fill")
+                    Text("Profile")
                 }
         }
         .accentColor(.white)
